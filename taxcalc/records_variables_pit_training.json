@@ -173,6 +173,15 @@
       "cross_year": "No",
       "attribute": "No"
     },
+    "income_gift": {
+      "type": "float",
+      "desc": "Gross income from Gifts",
+      "form": {
+        "2018": "pit_macedonia"
+      },
+      "cross_year": "No",
+      "attribute": "No"
+    },
     "total_sources_of_i": {
       "type": "float",
       "desc": "Count of sources of income",
@@ -642,6 +651,13 @@
     "tti_w_I": {
       "type": "float",
       "desc": "Total taxable income from wages and 'other income of labour'",
+      "form": {
+        "2018": "pit_macedonia"
+      }
+    },
+    "tti_gift": {
+      "type": "float",
+      "desc": "Total taxable income from gifts",
       "form": {
         "2018": "pit_macedonia"
       }

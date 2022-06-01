@@ -903,6 +903,34 @@
         "out_of_range_maxmsg": "",
         "out_of_range_action": "stop"                
     },
+    "_gift_threshold": {
+        "long_name": "Minimum threshold for taxable gifts",
+        "description": "Gift Income below this threshold is not taxable",
+        "itr_ref": "R code",
+        "notes": "",
+        "row_var": "AYEAR",
+        "row_label": [
+            "2018"
+        ],
+        "start_year": 2018,
+        "cpi_inflatable": true,
+        "cpi_inflated": false,
+        "col_var": "",
+        "col_label": [
+        ],
+        "boolean_value": false,
+        "integer_value": false,
+        "value": [
+                10000
+        ],
+        "range": {
+            "min": 0,
+            "max": 9e+99
+        },
+        "out_of_range_minmsg": "",
+        "out_of_range_maxmsg": "",
+        "out_of_range_action": "stop"                
+    },
     "_capital_income_rate_a_curr_law": {
         "long_name": " Tax rate at which capital income is levied",
         "description": "Tax collected from capital income .",
